@@ -1,0 +1,9 @@
+.card-img-top{
+    height: 250px;
+}
+.card-title{
+    color: cornflowerblue;
+}
+.card{
+    border: 1px yellow solid;
+}

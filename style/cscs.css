@@ -1,0 +1,88 @@
+#form1 label {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+#form1 input[type=text], #form1 select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#form1 input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#form1 input[type=number] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#form1 textarea {
+    width: 100%;
+}
+  
+#form1 input[type=submit] {
+    width: 50%;
+    color: white;
+    padding: 14px 20px;
+    margin: 15px 25%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+  
+#form1 input[type=submit]:hover {
+    background-color: #c99807!important;
+    color: rgb(219, 211, 211);
+}
+  
+div#form1 {
+    border-radius: 5px;
+    background-color: #272626;
+    padding: 20px;
+    color: white;
+}
+
+#form1 form {
+    width: 50%;
+    margin-left: 25%;
+}
+
+#form1 h1 {
+    text-align: left;
+    height: 100%; 
+    vertical-align: middle;
+    margin-left: 0!important;
+    padding-left: 0!important;
+    display: inline-block;
+}
+
+#form1-logo {
+    width: 10%;
+    margin-right: 0!important;
+    padding-right: 0!important;
+}
+
+#form-title-holder {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
