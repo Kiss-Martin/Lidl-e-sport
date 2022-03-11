@@ -124,3 +124,27 @@ div#form1 {
     text-decoration: none;
     cursor: pointer;
   }
+
+  /* --= League of Legends =-- */
+
+.car-lol img {
+    height: 680px;
+}
+
+@media screen and (max-width: 1200px) {
+    .car-lol img {
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .car-lol img {
+        height: 380px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .car-lol img {
+        height: 200px;
+    }
+}
