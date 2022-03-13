@@ -12,3 +12,16 @@
 .mycardb{
     width: 200px;
 }
+#proba{
+    text-align: center !important;
+}
+@media screen and (min-width: 992px) {
+    .navelso {
+        margin: auto;
+    }
+}
+@media screen and (max-width: 992px) {
+    .navmasodik {
+        margin: 0 auto 0 0;
+    }
+}
