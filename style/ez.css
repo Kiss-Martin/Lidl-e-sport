@@ -26,5 +26,9 @@
     }
 }
 #gyes{
-    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+.feka{
+    background-color: black;
+    border: 1px solid white;
 }
