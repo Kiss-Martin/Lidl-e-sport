@@ -30,5 +30,13 @@
 }
 .feka{
     background-color: black;
-    border: 1px solid white;
+    border: 1px solid grey;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+.feka:hover{
+    background-color: rgba(255, 0, 0, 0.514);
+}
+.news{
+    min-height: 500px;
 }
