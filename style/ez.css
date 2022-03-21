@@ -59,3 +59,15 @@ body{
 .none{
     text-decoration: none;
 }
+@font-face{
+    src: url(/Rainbow.ttf);
+    font-family: r6;
+    
+}
+.r6betü{
+    font-family: r6;
+}
+#r6cim{
+    font-size: xx-large;
+}
+
