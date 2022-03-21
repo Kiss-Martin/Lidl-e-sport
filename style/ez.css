@@ -40,3 +40,22 @@
 .news{
     min-height: 500px;
 }
+.cardstyle1{
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.cardstyle2{
+    border: 1px solid yellow;
+    border-radius: 10px;
+
+}
+.cardstyle{
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+body{
+    background-color: black;
+}
+.none{
+    text-decoration: none;
+}
