@@ -9,8 +9,9 @@
 - [League of Legends](https://kiss-martin.github.io/Lidl-e-sport/pages/lol.html)
 - [Rainbow Six Siege](https://kiss-martin.github.io/Lidl-e-sport/pages/r6.html)
 
-A weboldal `bootstrap` használatával készült 
 ![Bootstrap](https://icons.getbootstrap.com/assets/img/icons-hero.png)
+
+A weboldal `bootstrap` használatával készült 
 
 A weboldalt készítették:
 - Csöngető Csongor
