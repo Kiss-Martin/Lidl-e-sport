@@ -70,4 +70,7 @@ body{
 #r6cim{
     font-size: xx-large;
 }
+.text-justify{
+    text-align: justify;
+}
 
