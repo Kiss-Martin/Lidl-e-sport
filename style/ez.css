@@ -4,6 +4,7 @@
 }
 #hatter{
     background-color: white;
+    max-height: 70px;
 }
 .owborder{
     border: 2px solid black;
@@ -72,5 +73,8 @@ body{
 }
 .text-justify{
     text-align: justify;
+}
+.fekete{
+    background-color: black;
 }
 
