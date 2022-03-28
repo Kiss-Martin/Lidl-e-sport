@@ -5,6 +5,8 @@
 #hatter{
     /* background-color: white; */
     max-height: 70px;
+    z-index: 10000;
+    background-color: #181717;
 }
 .owborder{
     border: 2px solid black;
@@ -16,7 +18,7 @@
 #proba{
     text-align: center !important;
 }
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
     .navelso {
         margin: auto;
     }
@@ -25,9 +27,12 @@
     .navmasodik {
         margin: 0 auto 0 0;
     }
-}
+} */
 #gyes{
     margin: 0 0 0 0;
+}
+.bolthatter{
+    background-color: #181717;
 }
 .feka{
     background-color: black;
@@ -49,6 +54,9 @@
     border: 1px solid yellow;
     border-radius: 10px;
 
+}
+.blau{
+    background-color: blue;
 }
 .cardstyle{
     border: 1px solid blue;
