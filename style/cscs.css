@@ -165,7 +165,7 @@ div#cont-lol {
     text-align: center;
 }
 
-#gotoForm {
+.gotoForm {
     width: 25%;
     color: white;
     padding: 14px 20px;
@@ -178,7 +178,7 @@ div#cont-lol {
 }
 
 @media screen and (max-width: 770px) {
-    #gotoForm {
+    .gotoForm {
         width: 40%;
         color: white;
         padding: 14px 20px;
@@ -191,7 +191,12 @@ div#cont-lol {
     }
 }
 
-#gotoForm:hover {
+.gotoForm:hover {
     background-color: #c99807!important;
+    color: rgb(219, 211, 211);
+}
+
+#valGotoForm:hover {
+    background-color: #c90707!important;
     color: rgb(219, 211, 211);
 }
