@@ -10,44 +10,52 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>        
-  <div class="">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mx-1 owborder fs-4 mt-2 mb-3 " id="hatter">
-      <div class="px-2 navelso navmasodik bg-dark">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse bg-dark" id="navbarNavDropdown">
-          <a class="navbar-brand p-2 navbar-nav" href="index.html">
-            <img src="img/navhome.png" alt="" width="" height="40" class="d-inline-block align-text-center px-2">
-            Főoldal
-          </a>
-          <a class="navbar-brand p-2 navbar-nav" href="pages/tournament.html">
-            <img src="img/navtrophy.png" alt="" width="" height="40" class="d-inline-block align-text-center px-2">
-            Tournamentek
-          </a>
-          <a class="navbar-brand p-2" href="pages/form.html">
-            <img src="img/navcontacts.png" alt="" width="" height="40" class="d-inline-block align-text-center px-2">
-            Jeletkezés
-          </a>
-          <li id="jaaj" class="nav-item dropdown">
-            <a class="navbar-brand dropdown-toggle p-2" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <img src="img/navcontroller.png" alt="" width="" height="40" class="d-inline-block align-text-center px-2">
-              Játékok
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="pages/valorant.html">Valorant</a></li>
-              <li><a class="dropdown-item" href="pages/lol.html">League of Legends</a></li>
-              <li><a class="dropdown-item" href="pages/r6.html">Tom Clancy's Rainbow Six Siege</a></li>
-            </ul>
-          </li>
-          <a class="navbar-brand p-2" href="pages/merch.html">
-            <img src="img/navcart (2).png" alt="" width="" height="40" class="d-inline-block bg-dark align-text-center px-2">
-            Merchs
-          </a>
-        </div>
-      </div>     
-    </nav>
-  </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mx-auto rounded-bottom">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 w-100 justify-content-around">
+            <li class="nav-item py-1 pt-2">
+                <a class="navbar-brand p-2 py-auto" href="index.html">
+                  <img src="img/navhome.png" alt="" width="60" height="" class="d-inline-block align-text-center px-2">
+                  Főoldal
+                </a>
+              </li>
+              <li class="nav-item py-1">
+                <a class="navbar-brand p-2 py-auto" href="pages/tournament.html">
+                  <img src="img/navtrophy.png" alt="" width="55" height="" class="d-inline-block align-text-center px-2">
+                  Tournamentek
+                </a>
+              </li>
+              <li class="nav-item py-1">
+                <a class="navbar-brand p-2 py-auto" href="pages/form.html">
+                  <img src="img/navcontacts.png" alt="" width="55" height="" class="d-inline-block align-text-center px-2">
+                  Jeletkezés
+                </a>
+              </li>
+              <li id="jaaj" class="nav-item dropdown py-auto py-1">
+                <a class="navbar-brand dropdown-toggle p-2" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="img/navcontroller.png" alt="" width="55" height="" class="d-inline-block align-text-center px-2">
+                  Játékok
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="pages/valorant.html">Valorant</a></li>
+                  <li><a class="dropdown-item" href="pages/lol.html">League of Legends</a></li>
+                  <li><a class="dropdown-item" href="pages/r6.html">Tom Clancy's Rainbow Six Siege</a></li>
+                </ul>
+              </li>
+              <li class="nav-item py-1">
+                <a class="navbar-brand p-2 py-auto" href="pages/merch.html">
+                  <img src="img/navcart (2).png" alt="" width="55" height="" class="d-inline-block align-text-center px-2">
+                  Merchs
+                </a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   
 
   
@@ -75,7 +83,7 @@
     </div>
     <h1 class="text-center text-light mt-2">Hírek</h1>
     <div class="row">
-      <div class="col-4">
+      <div class="col-lg-4 col-md-12">
         <a href="https://www.gamespot.com/articles/fortnite-without-building-is-permanent-as-epic-reveals-zero-build-mode/1100-6501976/" class="none" target="_blank">
           <div class="cardstyle news">
             <img src="img/fortinájti.jpg" class="p-2 w-100">
@@ -85,7 +93,7 @@
           </div>
         </a>
       </div>
-      <div class="col-4">
+      <div class="col-lg-4 col-md-12">
         <a href="https://www.pcgamer.com/portal-2-desolation-is-giving-the-classic-puzzle-game-a-huge-graphics-overhaul/" class="none" target="_blank">
           <div class="cardstyle1 news">
             <img src="img/portal2.jpg" class="p-2 w-100">
@@ -95,7 +103,7 @@
           </div>
         </a>
       </div>
-      <div class="col-4">
+      <div class="col-lg-4 col-md-12">
         <a href="https://hu.ign.com/sniper-elite-5-leleplezes-elott" class="none" target="_blank">
           <div class="cardstyle2 news">
             <img src="img/sniperelite.jpg" class="p-2 w-100"  >
@@ -109,7 +117,7 @@
 
 
     <div class="row mt-3">
-      <div class="col-8">
+      <div class="col-lg-8 col-md-12">
         <a href="https://fullsync.co.uk/esports-tournaments-2022/" class="none" target="_blank">
           <div class="cardstyle2 news">
             <img src="img/esportfoto3.jpg" class="p-2 w-100">
@@ -119,7 +127,7 @@
           </div>
         </a>
       </div>
-      <div class="col-4">
+      <div class="col-lg-4 col-md-12">
         <a href="https://lolesports.com/article/riot-games-reveals-multi-city-tour-across-north-america-for-2022-league-of-legends-world-championship/blt8a2408d94c99d57b" class="none" target="_blank">
           <div class="cardstyle news">
             <img src="img/lolesport2022.jpg" class="p-2 w-100"  >
@@ -133,7 +141,7 @@
 
     
     <div class="row mt-3">
-      <div class="col-4">
+      <div class="col-lg-4 col-md-12">
         <a href="https://www.ea.com/games/apex-legends/compete" class="none" target="_blank">
           <div class="cardstyle news">
             <img src="img/apex.jpg" class="p-2 w-100"  >
@@ -143,7 +151,7 @@
           </div>
         </a>
       </div>
-      <div class="col-8">
+      <div class="col-lg-8 col-md-12">
         <a href="https://valorantesports.com/schedule" class="none" target="_blank">
           <div class="cardstyle1 news">
             <img src="img/valorantesport.jpg" class="p-2 w-100"  >
