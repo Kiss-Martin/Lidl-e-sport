@@ -1,3 +1,6 @@
+@import url('http://fonts.cdnfonts.com/css/valorant');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
 #jaaj{
     list-style-type: none;
     color: black;
@@ -92,8 +95,7 @@ body{
 
 
 
-@import url('http://fonts.cdnfonts.com/css/valorant');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
 
 .card-img-top{
     height: 250px;
